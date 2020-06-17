@@ -1,4 +1,5 @@
 files=$(ls -l | wc -l)
+let files=$files-1
 flag=0
 guess=0
 difference=0
